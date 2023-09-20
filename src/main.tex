@@ -68,6 +68,12 @@
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-5pt}
 }
+\newcommand{\resumeSmallSubheading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2
+    \end{tabular*}
+}
 
 \newcommand{\resumeSubSubheading}[2]{
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
@@ -104,5 +110,8 @@
 
 %--------PROGRAMMING SKILLS------------
 \input{programming_skills.tex}
+
+%--------CERTIFICATES------------
+\input{certificates.tex}
 
 \end{document}
